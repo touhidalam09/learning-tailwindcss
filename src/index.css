@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* custome classes  */
+@layer utilities {
+  .btn-bg-color {
+    background-color: #145c8f;
+  }
+  .disable-input-bg {
+    background-color: #c8c8cb;
+  }
+  .cardComponent {
+    width: 960px;
+  }
+}
